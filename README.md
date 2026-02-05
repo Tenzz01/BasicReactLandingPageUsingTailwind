@@ -1,16 +1,56 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React + Tailwind CSS Landing Page
 
-Currently, two official plugins are available:
+## Overview
+A modern, responsive landing page built with React and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Responsive design
+- Clean, modern UI
+- Fast performance
+- Easy to customize
 
-## React Compiler
+## Tech Stack
+- **React** - UI library
+- **Tailwind CSS** - Utility-first CSS framework
+- **Vite** (or Create React App) - Build tool
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Node.js (v14+)
+- npm or yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+```bash
+npm install
+```
+
+### Development
+```bash
+npm run dev
+```
+
+### Build
+```bash
+npm run build
+```
+
+## Project Structure
+```
+src/
+├── components/
+│   ├── Header.jsx
+│   ├── Hero.jsx
+│   ├── Features.jsx
+│   └── Footer.jsx
+├── App.jsx
+└── index.css
+```
+
+## Customization
+Modify Tailwind classes in your components to customize colors, spacing, and layout.
+
+## Learn More
+- [React Documentation](https://react.dev)
+- [Tailwind CSS Documentation](https://tailwindcss.com)
